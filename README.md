@@ -1,2 +1,18 @@
-# phoelid.me
-Phoelid.me homepage
+phoelid.me static files 
+========================
+
+Phoelid.me homepage static files.
+Uses below technologies:
+
+
+[pure]: http://purecss.io/
+[pure-site]: https://github.com/yahoo/pure-site
+
+
+License
+-------
+
+This software is free to use under the zLib license.
+See the [zLib][] license for more information.
+
+[zLib]: http://www.zlib.net/zlib_license.html
