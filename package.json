@@ -5,7 +5,13 @@
   "private": true,
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build:index": "parcel build src/index.html",
+    "build:404": "parcel build src/404.html",
+    "build:500": "parcel build src/500.html",
+    "build:502": "parcel build src/502.html",
+    "build:503": "parcel build src/503.html",
+    "build:504": "parcel build src/504.html",
+    "ci:build": "npm-run-all --parallel build:*"
   },
   "repository": {
     "type": "git",
@@ -19,6 +25,7 @@
   "homepage": "https://github.com/Palid/phoelid.me#readme",
   "dependencies": {},
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "parcel": "^1.12.4"
   }
 }
