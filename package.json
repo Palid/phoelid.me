@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "phoelid.me static files  ========================",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palid/phoelid.me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Palid/phoelid.me/issues"
+  },
+  "homepage": "https://github.com/Palid/phoelid.me#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
