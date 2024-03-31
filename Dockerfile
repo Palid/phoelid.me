@@ -1,4 +1,4 @@
-FROM node:15.6.0-alpine as builder
+FROM node:20-alpine as builder
 
 # install and cache app dependencies
 WORKDIR /app
