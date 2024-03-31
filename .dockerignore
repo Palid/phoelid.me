@@ -3,3 +3,4 @@
 !package.json
 !package-lock.json
 !nginx
+!nginx/nginx.conf
